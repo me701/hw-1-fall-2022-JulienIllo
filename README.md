@@ -64,10 +64,10 @@ in your writeup.
 
 ### Solution
 
-'''bash
+```bash
 top	# The top command displays various imformation about current processes.
 	# Both the processing amount and %memory are given.
-'''
+```
 
 ## Problem 5 -- `bash`
 
@@ -81,4 +81,6 @@ determine this information.
 
 bash is located within the main bin directory, found using the following commands:
 
+```bash
 cd /bin # Opens the bin directory, where bash is located
+```
