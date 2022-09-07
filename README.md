@@ -27,12 +27,13 @@ or Octave).
 
 ### Solution
 
-Write your solution here.  Note, in the past, we've used a full, graphical
-version of Linux.  With WSL, you probably don't have as direct a path for
-exploring software in the Software Manager.  However, use the power of
-Google (or AskJeeves) to explore what sorts of open-source software is out
-there for technical or other applications.
-
+As an avid PC gamer, I often find difficulties organizing all my installed games
+in one place. With multiple launchers (Steam, EPIC Games, Xbox Gamepass, etc) it can
+be difficult to truly know what games I have. The open source solution I found was
+a Video Game library manager called Playnite. With Playnite, I can view all my games,
+both official and emulated, in one clean location. If I ever feel the software could
+benefit from an additional feature (say, adding custom tags to organize games), I 
+could easily add said feature using my coding knowledge.
 
 ## Problem 3 -- Your CPU
 
@@ -49,8 +50,8 @@ using `ls > directory_contents.txt` to dump the contents of a directory to a fil
 To display CPU information, I used the following command:
 
 ```bash
-ls -al # <--- that's not right, but it shows you how to include
-       #      code in Markdown!
+lscpu # Displays a variety of info, including number of cores
+	# and processor speed in Hz
 ```
 
 ## Problem 4 -- Resource Hogs
@@ -63,7 +64,10 @@ in your writeup.
 
 ### Solution
 
-
+'''bash
+top	# The top command displays various imformation about current processes.
+	# Both the processing amount and %memory are given.
+'''
 
 ## Problem 5 -- `bash`
 
@@ -74,3 +78,7 @@ Where is `bash` located on your Linux system?  And what version of
 determine this information.
 
 ### Solution
+
+bash is located within the main bin directory, found using the following commands:
+
+cd /bin # Opens the bin directory, where bash is located
